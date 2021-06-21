@@ -1,0 +1,6 @@
+#!/bin/bash
+@ECHO OFF
+echo I will start PHP server ...
+WHERE php
+nohup php -S 0.0.0.0:8080 -t php
+nohup startWebLogic.sh < /dev/null &> /dev/null &

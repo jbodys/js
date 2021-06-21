@@ -1,0 +1,4 @@
+#!/bin/bash
+URL=http://localhost:8080
+BROWSER=firefox
+start $BROWSER $URL
